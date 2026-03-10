@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+}
+header > img{
+    width: 122px;
+    height: 20px;
+}
+
+.nav-links-container{
+    display: flex;
+    gap: 20px;
+}
+.nav-links-container > a{
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.intro-section{
+    width: 100%;
+    height: 1074px;
+    padding: 20px, 140px, 20px, 0px;
+    position: relative;
+}
+.gradient-bg{
+    width: 100%;
+    height: 808px;
+    background-image: url("./media/Gradient_background.png");
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+.intro-container{
+    width: 1030px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+.intro-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.first-t{
+    font-family: "Source Serif 4", serif;
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+.second-t{
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: -5%;
+    font-weight: 600;
+}
+.intro-header > p{
+     font-family: "Source Serif 4", serif;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -4%;
+}
+.button-div{
+    display: flex;
+    gap: 16px;
+    margin-inline: auto;
+}
+.button-div > .btn-1{
+    width: 164px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-inline: 16px;
+    padding-block: 16px;
+    color: #fff;
+    background-color: black;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border: none;
+}
+.button-div > .btn-2{
+    width: 214px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-inline: 16px;
+    padding-block: 16px;
+    color: #fff;
+    background-color: black;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border: none;
+    word-spacing: 6px;
+}
+.button-div > button > span{
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+}
+.hero-image{
+    width: 960px;
+    height: 608px;
+    border-radius: 24px;
+    background-image: url("./media/Hero\ image.png");
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
