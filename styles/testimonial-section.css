@@ -1,0 +1,57 @@
+
+.testimonial{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    padding-inline: 20px;
+    padding-block: 120px;
+}
+.testimonial-content{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.testimonial-content > img{
+    width: 612px;
+    height: 700px;
+}
+.quote{
+    width: 612px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-block: auto;
+    gap: 56px;
+    padding-inline: 105px;
+}
+.quote > img{
+    width: 24px;
+    height: 20px;
+}
+.quote > h1{
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -3%;
+    font-family: "Radio Canada Big", sans-serif;
+}
+.name-role{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.name-role > h3{
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    font-family: "Radio Canada Big", sans-serif;
+}
+.name-role > h4{
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 4%;
+    font-family: "Source Serif 4", serif;
+    color: #6C6C6C;
+}
