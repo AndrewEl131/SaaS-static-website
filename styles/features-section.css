@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Radio Canada Big", sans-serif;
+}
+.features-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-inline: 20px;
+  padding-block: 120px;
+}
+.features-section > h1 {
+  width: 650px;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -3%;
+  text-align: center;
+}
+.features-section > .content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+.features-section > .content > img {
+  width: 693px;
+  height: 502px;
+}
+.features-list {
+  width: 507px;
+  height: 502px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.features-list > .items-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.features-list > .items-list > .feature-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-block: 24px;
+}
+.feature-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feature-number {
+  color: #6c6c6c;
+}
+
+.feature-text {
+  font-size: 18px;
+  color: #444;
+}
+
+.feature-btn {
+  width: 180px;
+  height: 46px;
+  margin-top: 24px;
+
+  padding: 12px;
+  background: black;
+  color: white;
+
+  font-weight: 600;
+  word-spacing: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  border: none;
+  cursor: pointer;
+}
+
+/* small white square */
+
+.btn-dot {
+  width: 4px;
+  height: 4px;
+  background: white;
+}
+
+/* responsive like md:w-45 md:justify-start */
+
+@media (min-width: 768px) {
+  .feature-btn {
+    width: 180px;
+    justify-content: flex-start;
+  }
+}
